@@ -4,7 +4,7 @@ long counter1;
 
 void job0 () _task_ 0 
 {
- //os_create_task (1);
+ //os_create_task (1);创建任务1
 
 }
 void job1 () _task_ 1  {
