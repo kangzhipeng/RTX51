@@ -1,4 +1,4 @@
-C51 COMPILER V9.00   M                                                                     03/03/2015 00:24:20 PAGE 1   
+C51 COMPILER V9.00   M                                                                     03/01/2015 23:26:37 PAGE 1   
 
 
 C51 COMPILER V9.00, COMPILATION OF MODULE M
@@ -13,18 +13,15 @@ line level    source
    4          
    5          void job0 () _task_ 0 
    6          {
-   7   1       //os_create_task (1);创建任务1
+   7   1       //os_create_task (1);
    8   1      
-   9   1       //os_create_task (1);
-  10   1      
-  11   1      }
-  12          void job1 () _task_ 1  {
-  13   1      long counter1; 
-  14   1        while (1)  {                        /* endless loop                         */
-  15   2          counter1++;                       /* increment counter 1                  */
-  16   2        }
-  17   1      }
-  18          
+   9   1      }
+  10          void job1 () _task_ 1  {
+  11   1      long counter1; 
+  12   1        while (1)  {                        /* endless loop                         */
+  13   2          counter1++;                       /* increment counter 1                  */
+  14   2        }
+  15   1      }
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE

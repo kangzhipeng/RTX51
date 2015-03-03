@@ -6,8 +6,6 @@ void job0 () _task_ 0
 {
  //os_create_task (1);创建任务1
 
- //os_create_task (1);
-
 }
 void job1 () _task_ 1  {
 long counter1; 
@@ -15,4 +13,3 @@ long counter1;
     counter1++;                       /* increment counter 1                  */
   }
 }
-

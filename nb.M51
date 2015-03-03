@@ -1,4 +1,4 @@
-BL51 BANKED LINKER/LOCATER V6.22                                                        03/03/2015  00:24:21  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22                                                        03/01/2015  23:26:38  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
@@ -59,7 +59,7 @@ OVERLAY MAP OF MODULE:   nb (M)
 SEGMENT                          DATA_GROUP 
   +--> CALLED SEGMENT          START    LENGTH
 ----------------------------------------------
-BL51 BANKED LINKER/LOCATER V6.22                                                      03/03/2015  00:24:21  PAGE 2
+BL51 BANKED LINKER/LOCATER V6.22                                                      03/01/2015  23:26:38  PAGE 2
 
 
 ?PR?JOB1?M                     0012H    0004H
@@ -78,16 +78,16 @@ SYMBOL TABLE OF MODULE:  nb (M)
   C:0180H         PUBLIC        job1
   -------         PROC          JOB0
   C:0007H         LINE#         5
-  C:0007H         LINE#         11
+  C:0007H         LINE#         9
   -------         ENDPROC       JOB0
   -------         PROC          JOB1
   -------         DO            
   D:0012H         SYMBOL        counter1
   -------         ENDDO         
+  C:0180H         LINE#         10
   C:0180H         LINE#         12
-  C:0180H         LINE#         14
-  C:0180H         LINE#         15
-  C:0199H         LINE#         16
+  C:0180H         LINE#         13
+  C:0199H         LINE#         14
   -------         ENDPROC       JOB1
   -------         ENDMOD        M
 
@@ -119,7 +119,7 @@ SYMBOL TABLE OF MODULE:  nb (M)
   C:00DFH         SYMBOL        ?C0015
   C:00EAH         SYMBOL        ?C0016
   N:0000H         SYMBOL        ?RTX51_TINY_KERNAL
-BL51 BANKED LINKER/LOCATER V6.22                                                      03/03/2015  00:24:21  PAGE 3
+BL51 BANKED LINKER/LOCATER V6.22                                                      03/01/2015  23:26:38  PAGE 3
 
 
   N:D8F0H         SYMBOL        ?RTX_CLOCK
@@ -179,7 +179,7 @@ SYMBOL TABLE OF MODULE:  nb (M)
   C:0052H         SYMBOL        NOWAITTIMEOUT
   C:0089H         SYMBOL        OS_SWITCH_TASK1
   D:0087H         SYMBOL        PCON
-BL51 BANKED LINKER/LOCATER V6.22                                                      03/03/2015  00:24:21  PAGE 4
+BL51 BANKED LINKER/LOCATER V6.22                                                      03/01/2015  23:26:38  PAGE 4
 
 
   D:00D0H         SYMBOL        PSW
@@ -239,7 +239,7 @@ SYMBOL TABLE OF MODULE:  nb (M)
   C:0045H         LINE#         332
   C:0046H         LINE#         333
   C:0047H         LINE#         334
-BL51 BANKED LINKER/LOCATER V6.22                                                      03/03/2015  00:24:21  PAGE 5
+BL51 BANKED LINKER/LOCATER V6.22                                                      03/01/2015  23:26:38  PAGE 5
 
 
   C:0049H         LINE#         335
@@ -299,7 +299,7 @@ SYMBOL TABLE OF MODULE:  nb (M)
   C:00A7H         LINE#         468
   C:00A9H         LINE#         470
   C:00ABH         LINE#         471
-BL51 BANKED LINKER/LOCATER V6.22                                                      03/03/2015  00:24:21  PAGE 6
+BL51 BANKED LINKER/LOCATER V6.22                                                      03/01/2015  23:26:38  PAGE 6
 
 
   C:00ADH         LINE#         472
@@ -359,7 +359,7 @@ SYMBOL TABLE OF MODULE:  nb (M)
   C:0101H         LINE#         565
   C:0102H         LINE#         567
   C:0105H         LINE#         571
-BL51 BANKED LINKER/LOCATER V6.22                                                      03/03/2015  00:24:21  PAGE 7
+BL51 BANKED LINKER/LOCATER V6.22                                                      03/01/2015  23:26:38  PAGE 7
 
 
   C:0108H         LINE#         572
@@ -419,7 +419,7 @@ SYMBOL TABLE OF MODULE:  nb (M)
   C:016AH         LINE#         666
   C:016CH         LINE#         668
   C:016FH         LINE#         670
-BL51 BANKED LINKER/LOCATER V6.22                                                      03/03/2015  00:24:21  PAGE 8
+BL51 BANKED LINKER/LOCATER V6.22                                                      03/01/2015  23:26:38  PAGE 8
 
 
   C:0172H         LINE#         671

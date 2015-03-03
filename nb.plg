@@ -4,34 +4,6 @@
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
 C:\07-¡Ÿ ±\RTX51\nb.uvproj
-Project File Date:  03/03/2015
+Project File Date:  03/01/2015
 
 <h2>Output:</h2>
-Build target 'Target 1'
-compiling m.c...
-M.C(7): error C141: syntax error near '<<'
-M.C(9): error C202: 'HEAD': undefined identifier
-M.C(13): error C141: syntax error near '}'
-M.C(19): error C141: syntax error near '<<'
-M.C(20): error C202: 'HEAD': undefined identifier
-M.C(21): error C141: syntax error near '=='
-M.C(23): error C129: missing ';' before 'of'
-assembling Conf_tny.A51...
-Target not created
-Build target 'Target 1'
-compiling m.c...
-M.C(7): error C141: syntax error near '<<'
-M.C(11): error C202: 'HEAD': undefined identifier
-M.C(13): error C141: syntax error near '}'
-M.C(19): error C141: syntax error near '<<'
-M.C(20): error C202: 'HEAD': undefined identifier
-M.C(22): error C141: syntax error near '}'
-M.C(23): error C129: missing ';' before 'of'
-assembling Conf_tny.A51...
-Target not created
-Build target 'Target 1'
-compiling m.c...
-assembling Conf_tny.A51...
-linking...
-Program Size: data=29.1 xdata=0 code=420
-"nb" - 0 Error(s), 0 Warning(s).
